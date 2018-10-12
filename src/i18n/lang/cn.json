@@ -1,0 +1,107 @@
+{
+  "message": {
+    "hello": "好好学习，天天向上！"
+  },
+  "navbar": {
+    "market":"市场",
+    "analysis": "分析",
+    "predictions": "预测",
+    "icos":"ICOS",
+    "login": "登陆",
+    "register": "注册"
+  },
+  "collumnName": {
+    "name": "名称",
+    "Price": "价格",
+    "oneHour": "1小时",
+    "twentyFourHour": "24小时",
+    "sevenDayPrice": "7天",
+    "mktCap": "全球市场",
+    "dayVol": "日成交量",
+    "algoScore": "评分",
+    "actions": "操作",
+    "symbol": "交易代码",
+    "btc": "BTC",
+    "sevenDay": "7天变化",
+    "fourteenDay": "14天变化",
+    "thirtyDay": "30天变化",
+    "fortyFiveDay": "45天变化",
+    "ninetyDay": "90天变化",
+    "tweHundredDay": "200天变化",
+    "mcapBtc": "总价值",
+    "twentyFourBtc": "24小时交易量",
+    "circSupply": "流通供应",
+    "totalSupply": "总供应量",
+    "maxSupply": "最大供应量",
+    "sevenDayVolat": "7天成交量",
+    "thirtyDayVolat": "30天成交量",
+    "age": "发行年限",
+    "ath": "最高价格",
+    "fmAth": "最高价涨跌比",
+    "athBtc": "ATH (BTC)",
+    "fmAthBtc": "% fm. ATH (BTC)"
+  },
+  "index": {
+    "banner": "利得数据加密货币预测分析",
+    "market": {
+      "title": "交易市场",
+      "overview": "市场概述",
+      "chart": "市场图表",
+      "top": "最佳赢家"
+    },
+    "analysis": {
+      "title": "数据分析",
+      "base": {
+        "title": "基本面分析",
+        "message": "对数据加密币价格存在逻辑联系的各种因素的进⾏量化分析，探索数据加密币价格决定及其变动的内在原因，并在此基础上对价格的⾛势和风险进⾏量化分析和精准的判断。可靠加密货币的独特特征是技术的可靠性，资本化的规模，投资者或分配⽅式，这些指标可让分析⼈⼠确定加密货币的实际价值。"
+      },
+      "invest": {
+        "title": "技术面分析",
+        "message": "技术分析会帮助确定什么时候最好购买硬币：每种加密交易所反映的图表。技术分析注重交易量和资产价格，并根据其过去的变化预测价格的动态和找出交易信号。"
+      },
+      "github": {
+        "title": "人工智能和大数据支持的量化分析",
+        "message": "由于加密货币市场是⼀个新兴的产业,驱动价格变化的因素出⾃不同的来源,所以运算法则使⽤机器学习(ML)和特有的深⼊学习(DL)等⼈⼯智能⽅式,来结合定量(如价格)和⾮定量(如新闻)数据,以此来⽣成稳定和可靠的预测。结合了⾃然语⾔处理，情感分析和机器学习算法，对⼤量数据进⾏分类，包括新闻，GitHub, 交换价格, 甚⾄推⽂。"
+      }
+    },
+    "icos": {
+      "title": "币种发行",
+      "current": {
+        "title": "当前发行的币种",
+        "message": "显示当前的ICO走势,为您预测ICO走势"
+      },
+      "upcoming": {
+        "title": "即将发行的币种",
+        "message": "显示当前的ICO走势,为您预测ICO走势"
+      },
+      "archived": {
+        "title": "已发行的币种",
+        "message": "显示当前的ICO走势,为您预测ICO走势"
+      },
+      "publish": {
+        "title": "公开发行的币种",
+        "message": "显示当前的ICO走势,为您预测ICO走势"
+      },
+      "advertise": {
+        "title": "广告币种",
+        "message": "显示当前的ICO走势,为您预测ICO走势"
+      }
+    }
+  },
+  "coinshow": {
+    "market": {
+      "collumnName": {
+        "Exchange": "交易所",
+        "Pair": "类型",
+        "Price": "价格",
+        "otherPrice": "其他价格",
+        "openTwentyFourHour": "24小时",
+        "highTwentyFourHour": "24小时",
+        "lowTwentyFourHour": "24小时",
+        "volumeTwentyFourHour": "24小时",
+        "Updated": "增长",
+        "sourceVolumeTwentyFourHour": "24小时"
+      }
+    }
+  }
+}

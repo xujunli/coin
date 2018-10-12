@@ -1,0 +1,107 @@
+{
+  "message": {
+    "hello": "good good study"
+  },
+  "navbar": {
+    "market":"MARKET",
+    "analysis": "ANALYSIS",
+    "predictions": "PREDICTIONS",
+    "icos":"ICOS",
+    "login": "Login",
+    "register": "Register"
+  },
+  "collumnName": {
+    "name": "Name",
+    "Price": "Price",
+    "oneHour": "1h",
+    "twentyFourHour": "24h",
+    "sevenDayPrice": "7d Price",
+    "mktCap": "Mkt.Cap",
+    "dayVol": "24h Vol",
+    "algoScore": "Algo.Score",
+    "actions": "Actions",
+    "symbol": "Symbol",
+    "btc": "BTC",
+    "sevenDay": "7d",
+    "fourteenDay": "14d",
+    "thirtyDay": "30d",
+    "fortyFiveDay": "45d",
+    "ninetyDay": "90d",
+    "tweHundredDay": "200d",
+    "mcapBtc": "MCAP BTC",
+    "twentyFourBtc": "24h Vol BTC",
+    "circSupply": "Circ.Supply",
+    "totalSupply": "Total Supply",
+    "maxSupply": "Max.Supply",
+    "sevenDayVolat": "7d Volat.",
+    "thirtyDayVolat": "30d Volat.",
+    "age": "Age(mo)",
+    "ath": "ATH",
+    "fmAth": "%fm.ATH",
+    "athBtc": "ATH (BTC)",
+    "fmAthBtc": "% fm. ATH (BTC)"
+  },
+  "index": {
+    "banner": "Li De Data encryption currency prediction analysis",
+    "market": {
+      "title": "MARKET",
+      "overview": "Overview",
+      "chart": "Chart",
+      "top": "Top Gainers"
+    },
+    "analysis": {
+      "title": "DATA ANALYSIS",
+      "base": {
+        "title": "Fundamental analysis",
+        "message": "Quantitative analysis of various factors in the logical connection of data cryptocurrency prices, exploring the internal reasons for the price of data cryptocurrency and its changes, and on this basis, quantitative analysis and accurate analysis of price trends and risks judgment. The unique characteristics of a reliable cryptocurrency are the reliability of the technology, the size of the capitalization, the investor or the way it is distributed. These metrics allow analysts to determine the actual value of the cryptocurrency."
+      },
+      "invest": {
+        "title": "Technical analysis",
+        "message": "Technical analysis will help determine when it is best to buy coins: the chart that each encrypted exchange reflects. Technical analysis focuses on trading volume and asset prices, and predicts price dynamics and identifies trading signals based on past changes."
+      },
+      "github": {
+        "title": "Quantitative analysis of artificial intelligence and big data support",
+        "message": "Since the cryptocurrency market is an emerging industry, the factors driving price changes come from different sources, so the algorithm uses artificial intelligence such as machine learning (ML) and unique deep learning (DL) to combine. Quantitative (such as price) and non-quantitative (such as news) data to generate stable and reliable forecasts. Combines natural language processing, sentiment analysis and machine learning algorithms to classify large amounts of data, including news, GitHub, exchange prices, and even tweets."
+      }
+    },
+    "icos": {
+      "title": "ICOS",
+      "current": {
+        "title": "Current ICOs",
+        "message": "Show current ICO trend and predict ICO trend for you"
+      },
+      "upcoming": {
+        "title": "Upcoming ICOs",
+        "message": "Show current ICO trend and predict ICO trend for you"
+      },
+      "archived": {
+        "title": "Archived ICOs",
+        "message": "Show current ICO trend and predict ICO trend for you"
+      },
+      "publish": {
+        "title": "Publish ICOs",
+        "message": "Show current ICO trend and predict ICO trend for you"
+      },
+      "advertise": {
+        "title": "Advertise ICOs",
+        "message": "Show current ICO trend and predict ICO trend for you"
+      }
+    }
+  },
+  "coinshow": {
+    "market": {
+      "collumnName": {
+        "Exchange": "Exchange",
+        "Pair": "Pair",
+        "Price": "Price",
+        "otherPrice": "otherPrice",
+        "openTwentyFourHour": "Open 24h",
+        "highTwentyFourHour": "High 24h",
+        "lowTwentyFourHour": "Low 24h",
+        "volumeTwentyFourHour": "Volume 24h",
+        "Updated": "Updated",
+        "sourceVolumeTwentyFourHour": "Source Volume 24h"
+      }
+    }
+  }
+}

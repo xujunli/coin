@@ -1,0 +1,219 @@
+{
+  "market": {
+    "message": [
+      {
+        "id": 0,
+        "name": "bitcoin",
+        "coinImg": "require('@/assets/images/eos-adc92c47.webp')",
+        "Price": "CN￥4393",
+        "oneHour": "-0.77%",
+        "twentyFourHour": "5.11%",
+        "sevenDayPrice": {
+          "id": 0,
+          "data": [
+            820,
+            932,
+            901,
+            255,
+            1290,
+            1330,
+            1320
+          ]
+        },
+        "mktCap": "CN￥139.66",
+        "dayVol": "CN￥139.66",
+        "algoScore": "2.31",
+        "actions": { },
+        "symbol": "mscn",
+        "btc": "0.00000021",
+        "sevenDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "fourteenDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "thirtyDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "fortyFiveDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "ninetyDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "tweHundredDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "mcapBtc": "0.00000021",
+        "twentyFourBtc": "0.00000021",
+        "circSupply": "0.000",
+        "totalSupply": "0.00000021",
+        "maxSupply": "0.00000021",
+        "sevenDayVolat": "20%",
+        "thirtyDayVolat": "20%",
+        "age": 11,
+        "ath": "￥2.15",
+        "fmAth": "-99.72",
+        "athBtc": "0.0000399",
+        "fmAthBtc": "-93.1%"
+      },
+      {
+        "id": 1,
+        "name": "bitcoin",
+        "coinImg": "require('@/assets/images/bitcoin-cadc0923.webp')",
+        "Price": "CN￥4393",
+        "oneHour": "-0.77%",
+        "twentyFourHour": "5.11%",
+        "sevenDayPrice": {
+          "id": 0,
+          "data": [
+            820,
+            932,
+            901,
+            255,
+            1290,
+            1330,
+            1320
+          ]
+        },
+        "mktCap": "CN￥139.66",
+        "dayVol": "CN￥139.66",
+        "algoScore": "2.31",
+        "actions": { },
+        "symbol": "mscn",
+        "btc": "0.00000021",
+        "sevenDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "fourteenDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "thirtyDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "fortyFiveDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "ninetyDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "tweHundredDay": {
+          "num1": "-40.45%",
+          "num2": "0.00044"
+        },
+        "mcapBtc": "0.00000021",
+        "twentyFourBtc": "0.00000021",
+        "circSupply": "0.000",
+        "totalSupply": "0.00000021",
+        "maxSupply": "0.00000021",
+        "sevenDayVolat": "20%",
+        "thirtyDayVolat": "20%",
+        "age": 11,
+        "ath": "￥2.15",
+        "fmAth": "-99.72",
+        "athBtc": "0.0000399",
+        "fmAthBtc": "-93.1%"
+      }
+    ],
+    "collumnName": {
+      "Followed": { },
+      "Price": {
+        "showName": "Price"
+      },
+      "oneHour": {
+        "showName": "1h"
+      },
+      "twentyFourHour": {
+        "showName": "24h"
+      },
+      "sevenDayPrice": {
+        "showName": "7d Price"
+      },
+      "mktCap": {
+        "showName": "Mkt.Cap"
+      },
+      "dayVol": {
+        "showName": "24h Vol"
+      },
+      "algoScore": {
+        "showName": "Algo.Score"
+      },
+      "actions": {
+        "showName": "Actions"
+      },
+      "symbol": {
+        "showName": "Symbol"
+      },
+      "btc": {
+        "showName": "BTC"
+      },
+      "sevenDay": {
+        "showName": "7d"
+      },
+      "fourteenDay": {
+        "showName": "14d"
+      },
+      "thirtyDay": {
+        "showName": "30d"
+      },
+      "fortyFiveDay": {
+        "showName": "45d"
+      },
+      "ninetyDay": {
+        "showName": "90d"
+      },
+      "tweHundredDay": {
+        "showName": "200d"
+      },
+      "mcapBtc": {
+        "showName": "MCAP BTC"
+      },
+      "twentyFourBtc": {
+        "showName": "24h Vol BTC"
+      },
+      "circSupply": {
+        "showName": "Circ.Supply"
+      },
+      "totalSupply": {
+        "showName": "Total Supply"
+      },
+      "maxSupply": {
+        "showName": "Max.Supply"
+      },
+      "sevenDayVolat": {
+        "showName": "7d Volat."
+      },
+      "thirtyDayVolat": {
+        "showName": "30d Volat."
+      },
+      "age": {
+        "showName": "Age(mo)"
+      },
+      "ath": {
+        "showName": "ATH"
+      },
+      "fmAth": {
+        "showName": "%fm.ATH"
+      },
+      "athBtc": {
+        "showName": "ATH (BTC)"
+      },
+      "fmAthBtc": {
+        "showName": "% fm. ATH (BTC)"
+      }
+    },
+    "selectTab": ["Followed","Price","oneHour","twentyFourHour","sevenDayPrice","mktCap","dayVol","algoScore","actions"]
+  }
+}
+
