@@ -26,6 +26,7 @@ let removePending = (config) => {
 // axios拦截器配置
 axios.interceptors.request.use(
   config => {
+    console.log(pending);
     removePending(config);
     config.cancelToken = new cancelToken((c)=>{
       pending.push({ u: config.url + '&' + config.method, f: c});
@@ -37,32 +38,11 @@ axios.interceptors.request.use(
 );
 axios.interceptors.response.use(
   response => {
-    removePending(res.config);
     return response
   },function (error) {
     return Promise.reject(error)
   }
 );
-// 跳转路由判断
-router.beforeEach((to, from, next) => {
-  if (to.matched.some(res => res.meta.requireLogin)) {
-    if (store.state.common.isLogin) {
-      next();
-    } else {
-      iView.Message.info({
-        content: '请先登录',
-        duration: 1,
-        onClose: function () {
-          next({
-            path: "/login"
-          });
-        }
-      });
-    }
-  } else {
-    next();
-  }
-});
 
 Vue.use(iView);
 Vue.use(VueAwesomeSwiper);

@@ -229,6 +229,14 @@ export default {
       ]
     }
   },
+  created () {
+    const that = this;
+    that.$axios.get("https://api.coinmarketcap.com/v2/ticker/").then(res=>{
+      console.log(res);
+    }).catch(function (err) {
+      console.log(err)
+    });
+  },
   mounted () {
     const that = this;
     that.intCharts1();

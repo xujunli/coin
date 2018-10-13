@@ -491,11 +491,7 @@ export default {
   },
   created: function(){
     const that = this;
-    var CancelToken = that.$axios.CancelToken;
-    var source = CancelToken.source();
-    that.$axios.get("https://api.coinmarketcap.com/v2/global/",{
-      cancelToken: source.token
-    }).then(res=>{
+    that.$axios.get("https://api.coinmarketcap.com/v2/global/").then(res=>{
       console.log(res);
       that.global.active_cryptocurrencies = res.data.data.active_cryptocurrencies;
       that.global.active_markets = res.data.data.active_markets;

@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import store from '@/store'
+import iView from 'iview';
 import Home from '@/components/Home'
 import Index from '@/components/Index'
 import Register from '@/components/Register'
@@ -25,8 +27,7 @@ import VIP from '@/components/members/VIP'
 import Order from '@/components/members/Order'
 
 Vue.use(Router)
-
-export default new Router({
+const router = new Router({
   mode: 'history',
   routes: [
     {
@@ -158,3 +159,26 @@ export default new Router({
     }
   ]
 })
+
+// 路由守卫
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(res => res.meta.requireLogin)) {
+  if (store.state.common.isLogin) {
+    next();
+  } else {
+    iView.Message.info({
+      content: '请先登录',
+      duration: 1,
+      onClose: function () {
+        next({
+          path: "/login"
+        });
+      }
+    });
+  }
+} else {
+  next();
+}
+});
+
+export default router
